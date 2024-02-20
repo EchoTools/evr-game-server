@@ -1,0 +1,466 @@
+{
+    "serialized" : false,
+    "pages" : [
+        {
+            "name" : "ECHO COMBAT"
+        },
+        {
+            "name" : "ECHO ARENA"
+        },
+        {
+            "name" : "SOCIAL (1/2)",
+            "rows" : [
+                {
+                    "path": "game|EnablePersonalBubble",
+                    "name" : "Personal Bubble",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|personalbubbleradius",
+                    "name" : "Personal Bubble Radius",
+                    "value" : 2.0,
+                    "type" : "REAL",
+                    "min" : 0.5,
+                    "max" : 2.0,
+                    "step" : 0.1,
+                    "format" : "%0.1f"
+                },
+                {
+                    "path": "game|personalbubblemode",
+                    "name" : "Personal Bubble Mode",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["All", "All But Friends", "All But Party"],
+                    "wrap" : true
+                }
+            ]
+        },
+        {
+            "name" : "SOCIAL (2/2)",
+            "rows" : [
+                {
+                    "path": "game|EnableMuteAll",
+                    "name" : "Mute All",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|muteallmode",
+                    "name" : "Mute All Mode",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "wrap" : true,
+                    "values" : ["All", "All But Friends", "All But Party"]
+                },
+                {
+                    "path": "game|EnableMuteEnemyTeam",
+                    "name" : "Mute Enemy Team",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|EnableGhostAll",
+                    "name" : "Ghost All",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|ghostallmode",
+                    "name" : "Ghost All Mode",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "wrap" : true,
+                    "values" : ["All", "All But Friends", "All But Party"]
+                }
+            ]
+        },
+        {
+            "name" : "GAMEPLAY (1/2)",
+            "rows" : [
+                {
+                    "path": "game|HUD",
+                    "name" : "Heads-up Display",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|MatchTagDisplay",
+                    "name" : "In-Match Tag Display",
+                    "value" : false,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Heraldry",
+                    "truestr" : "Simplified"
+                },
+                {
+                    "path": "game|EnableYaw",
+                    "name" : "Enable Yaw",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|EnablePitch",
+                    "name" : "Enable Pitch",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|EnableRoll",
+                    "name" : "Enable Roll",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                }
+            ]
+        },
+        {
+            "name" : "GAMEPLAY (2/2)",
+            "rows" : [
+                {
+                    "path": "game|EnableSmoothRotation",
+                    "name" : "Smooth Rotation (Not Recommended)",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|smoothrotationspeed",
+                    "name" : "Smooth Rotation Speed",
+                    "value" : 5.0,
+                    "type" : "REAL",
+                    "min" : 1.0,
+                    "max" : 10.0,
+                    "step" : 0.1,
+                    "format" : "%0.1f"
+                }
+            ]
+        },
+        {
+            "name" : "GAMEPLAY THROWING",
+            "rows" : [
+                {
+                    "path": "game|experimentalthrowing",
+                    "name" : "Experimental Throwing",
+                    "idx" : 0,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Off", "Predictive", "Latest Sensor Data"]
+                },
+                {
+                    "path": "game|grabdeadzone",
+                    "name" : "Input Grabbing Dead Zone",
+                    "value" : 17.5,
+                    "type" : "REAL",
+                    "min" : 0.0,
+                    "max" : 50.0,
+                    "step" : 0.5,
+                    "format" : "%0.1f%%"
+                },
+                {
+                    "path": "game|releasedistance",
+                    "name" : "Input Release Distance",
+                    "value" : 7.5,
+                    "type" : "REAL",
+                    "min" : 0.0,
+                    "max" : 50.0,
+                    "step" : 0.5,
+                    "format" : "%0.1f%%"
+                },
+                {
+                    "path": "game|wristangleoffset",
+                    "name" : "Wrist Angle Offset (Degrees)",
+                    "value" : 0,
+                    "type" : "REAL",
+                    "step" : 3.0,
+                    "min" : -45.0,
+                    "max" : 45.0,
+                    "format" : "%0.1f%%"
+                }
+            ]
+        },
+        {
+            "name" : "NET STATUS",
+            "rows" : [
+                {
+                    "path": "game|EnableNetStatusHUD",
+                    "name" : "Net Status HUD Icons",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|EnableNetStatusPause",
+                    "name" : "Net Status Pause Icons",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|EnableAPIAccess",
+                    "name" : "Enable API Access",
+                    "value" : false,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                }
+            ]
+        },
+        {
+            "name" : "DISPLAY",
+            "rows" : [
+                {
+                    "path": "graphics|fullscreen",
+                    "name" : "Fullscreen",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "graphics|display",
+                    "name" : "Monitor",
+                    "value" : 0,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path": "graphics|resolutionscale",
+                    "name" : "Resolution",
+                    "value" : 1.00,
+                    "type" : "REAL",
+                    "min" : 0.5,
+                    "max" : 2.0,
+                    "step" : 0.05,
+                    "format" : "%0.2f"
+                },
+                {
+                    "path": "graphics|multires",
+                    "name" : "Multi-Resolution Shading",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "graphics|adaptiveresolution",
+                    "name" : "Auto Resolution",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                }
+            ]
+        },
+        {
+            "name" : "GRAPHICS (1/3)",
+            "rows" : [
+                {
+                    "path": "graphics|qualitylevel",
+                    "name" : "Graphics Quality",
+                    "value" : 2,
+                    "type" : "CONTROL",
+                    "default": 0,
+                    "defaultonbreak" : true,
+                    "values" : ["Custom", "Low", "Medium", "High"],
+                    "controls" : [
+                        [],
+                        [["Shadow Quality", 0], ["Mesh Quality", 0], ["FX Quality", 0], ["Texture Quality", 0], ["Lighting Quality", 0], ["Volumetrics", false], ["Bloom", false]],
+                        [["Shadow Quality", 1], ["Mesh Quality", 1], ["FX Quality", 1], ["Texture Quality", 1], ["Lighting Quality", 1], ["Volumetrics", true], ["Bloom", true]],
+                        [["Shadow Quality", 2], ["Mesh Quality", 2], ["FX Quality", 2], ["Texture Quality", 2], ["Lighting Quality", 2], ["Volumetrics", true], ["Bloom", true]]
+                     ]
+                },
+                {
+                    "path": "graphics|msaa",
+                    "name" : "Anti-aliasing",
+                    "idx" : 0,
+                    "type" : "STRING ARRAY",
+                    "values" : ["None", "2x", "4x"]
+                },
+                {
+                    "path": "graphics|temporalaa",
+                    "name" : "Temporal AA",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "graphics|quality|volumetrics",
+                    "name" : "Volumetrics",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "graphics|quality|bloom",
+                    "name" : "Bloom",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                }
+            ]
+        },
+        {
+            "name" : "GRAPHICS (2/3)",
+            "rows" : [
+                {
+                    "path": "graphics|quality|shadows",
+                    "name" : "Shadow Quality",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Low", "Medium", "High"]
+                },
+                {
+                    "path": "graphics|quality|meshes",
+                    "name" : "Mesh Quality",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Low", "Medium", "High"]
+                },
+                {
+                    "path": "graphics|quality|fx",
+                    "name" : "FX Quality",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Low", "Medium", "High"]
+                },
+                {
+                    "path": "graphics|quality|textures",
+                    "name" : "Texture Quality",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Low", "Medium", "High"]
+                },
+                {
+                    "path": "graphics|quality|lights",
+                    "name" : "Lighting Quality",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Low", "Medium", "High"]
+                }
+            ]
+        },
+        {
+            "name" : "GRAPHICS (3/3)",
+            "rows" : [
+                {
+                    "path": "graphics|sharpening",
+                    "name" : "Sharpening",
+                    "value" : 2.0,
+                    "type" : "REAL",
+                    "min" : 0.0,
+                    "max" : 2.0,
+                    "step" : 0.1,
+                    "format" : "%0.1f"
+                }
+            ]
+        },
+        {
+            "name" : "AUDIO",
+            "rows" : [
+                {
+                    "path": "game|music",
+                    "name" : "Music",
+                    "value" : 10,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 10
+                },
+                {
+                    "path": "game|sfx",
+                    "name" : "SFX",
+                    "value" : 10,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 10
+                },
+                {
+                    "path": "game|announcer",
+                    "name" : "Announcer",
+                    "value" : 10,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 10
+                },
+                {
+                    "path": "game|voip",
+                    "name" : "Voice Chat Volume",
+                    "value" : 10,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 10
+                },
+                {
+                    "path": "game|dynamicmusicmode",
+                    "name" : "Arena Soundtrack",
+                    "idx" : 2,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Off", "Classic", "Dynamic"],
+                    "wrap" : true
+                }
+            ]
+        },
+        {
+            "name" : "VOICE OPTIONS",
+            "rows" : [
+                {
+                    "path": "game|voipmode",
+                    "name" : "Voice Chat",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Muted", "Open", "Push To Talk", "Push To Mute"],
+                    "wrap" : true
+                },
+                {
+                    "path": "game|voipmodeffect",
+                    "name" : "Voice Modulation",
+                    "idx" : 0,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Disabled", "Low", "Medium", "High"],
+                    "wrap" : true
+                }
+            ]
+        },
+        {
+           "name" : "VOICE LOUDNESS",
+           "rows" : [
+                {
+                    "path": "game|EnableMaxLoudness",
+                    "name" : "Voice Loudness Enable (Experimental)",
+                    "value" : false,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|voiploudnesslevel",
+                    "name" : "Voice Max Loudness (Experimental)",
+                    "idx" : 3,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Quietest", "Quieter", "Quiet", "Standard", "Loud"],
+                    "wrap" : true
+                }
+           ]
+        }
+    ]
+}

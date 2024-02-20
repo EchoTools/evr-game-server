@@ -1,0 +1,34 @@
+# project specific
+.*
+/build
+/cmd
+/sdks/cpp/.build
+/sdks/cpp/.archives
+.idea
+*.zip
+/release
+bin
+/docs
+*.md
+*.amd64
+/site/public
+/test
+
+# Created by .ignore support plugin (hsz.mobi)
+### Go template
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# gameserver
+!bin/evr-game-wrapper.exe
+!bin/evr-game-wrapper

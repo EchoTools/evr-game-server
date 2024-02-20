@@ -1,0 +1,83 @@
+{
+    "serialized" : false,
+    "pages" : [
+        {
+            "name" : "SOCIAL",
+            "rows" : [
+                {
+                    "path": "game|SocialMode",
+                    "name" : "Social Mode",
+                    "value" : 3,
+                    "type" : "CONTROL",
+                    "default": 3,
+                    "defaultonbreak" : true,
+                    "values" : ["Social", "Less Social", "Quiet", "Custom"],
+                    "controls" : [
+                        [["Voice Chat", 1], ["Personal Bubble", false], ["Personal Bubble Radius", 0.5], ["Mute All", false], ["Mute All Mode", 1], ["Ghost All Mode", 1]],
+                        [["Voice Chat", 2], ["Personal Bubble", true],  ["Personal Bubble Radius", 1.0], ["Mute All", false], ["Mute All Mode", 1], ["Ghost All Mode", 1]],
+                        [["Voice Chat", 0], ["Personal Bubble", true],  ["Personal Bubble Radius", 2.0], ["Mute All", true],  ["Mute All Mode", 0], ["Ghost All Mode", 0]],
+                        []
+                     ]
+                },
+                {
+                    "path": "game|EnablePersonalBubble",
+                    "name" : "Personal Bubble",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|personalbubbleradius",
+                    "name" : "Personal Bubble Radius",
+                    "value" : 2.0,
+                    "type" : "REAL",
+                    "min" : 0.5,
+                    "max" : 2.0,
+                    "step" : 0.1,
+                    "format" : "%0.1f"
+                },
+                {
+                    "path": "game|EnableMuteAll",
+                    "name" : "Mute All",
+                    "value" : true,
+                    "type" : "NAMED FLAG",
+                    "falsestr" : "Disabled",
+                    "truestr" : "Enabled"
+                },
+                {
+                    "path": "game|voipmode",
+                    "name" : "Voice Chat",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Disabled", "Enabled", "Push To Talk", "Push To Mute"],
+                    "wrap" : true
+                },
+                {
+                    "path": "game|voipmodeffect",
+                    "name" : "Voice Modulation",
+                    "idx" : 0,
+                    "type" : "STRING ARRAY",
+                    "values" : ["Disabled", "Low", "Medium", "High"],
+                    "wrap" : true
+                },
+                {
+                    "path": "game|muteallmode",
+                    "name" : "Mute All Mode",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "wrap" : true,
+                    "values" : ["All", "All But Friends", "All But Party"]
+                },
+                {
+                    "path": "game|ghostallmode",
+                    "name" : "Ghost All Mode",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "wrap" : true,
+                    "values" : ["All", "All But Friends", "All But Party"]
+                }
+            ]
+        }
+    ]
+}

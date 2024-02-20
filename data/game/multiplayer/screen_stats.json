@@ -1,0 +1,177 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "screens" : [
+        
+        {
+            "gamemode": "echo_arena",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+                "interceptions",
+                "goals",
+                "blocks",
+                "catches",
+                "passes",
+            ]
+        },
+        {
+            "gamemode": "echo_demo",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+                "interceptions",
+                "goals",
+                "blocks",
+                "catches",
+                "passes",
+            ]
+        },
+        {
+            "gamemode": "echo_demo_public",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+                "interceptions",
+                "goals",
+                "blocks",
+                "catches",
+                "passes",
+            ]
+        },
+        {
+            "gamemode": "echo_arena_private",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+            ]
+        },
+        {
+            "gamemode": "echo_arena_public_ai",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+                "interceptions",
+                "goals",
+                "blocks",
+                "catches",
+                "passes",
+            ]
+        },
+        {
+            "gamemode": "echo_arena_practice_ai",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+                "interceptions",
+                "goals",
+                "blocks",
+                "catches",
+                "passes",
+            ]
+        },
+        {
+            "gamemode": "echo_arena_private_ai",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+            ]
+        },
+        {
+            "gamemode": "echo_arena_first_match",
+            "stats": [
+                "points",
+                "assists",
+                "saves",
+                "stuns",
+                "possessiontime",
+                "steals",
+                "shotsongoal",
+                "interceptions",
+                "goals",
+                "blocks",
+                "catches",
+                "passes",
+            ]
+        },
+        
+        {
+            "gamemode": "echo_combat",
+            "stats": [
+                "CombatEliminations",
+                "CombatObjectiveEliminations",
+                "CombatObjectiveTime",
+                "CombatObjectiveDamage",
+                
+                "CombatKills",
+                "CombatAssists",
+                "CombatDeaths",
+                "CombatDamage",
+            ]
+        },
+        {
+            "gamemode": "echo_combat_private",
+            "stats": [
+                "CombatEliminations",
+                "CombatObjectiveEliminations",
+                "CombatObjectiveTime",
+                "CombatObjectiveDamage",
+                
+                "CombatKills",
+                "CombatAssists",
+                "CombatDeaths",
+                "CombatDamage",
+            ]
+        },
+    ]
+}

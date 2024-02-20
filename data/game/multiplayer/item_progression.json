@@ -1,0 +1,727 @@
+{
+    "prereqs": {
+        "levels": [
+            {
+                "level": 1,
+                "unlocks": [
+                    "tint_neutral_a_default",
+                    "tint_chassis_default",
+                    "tint_blue_a_default",
+                    "tint_orange_a_default",
+                    "tint_neutral_a_s10_default",
+                    "pattern_default",
+                    "pattern_lightning_a",
+                    "loadout_number",
+                    "decal_default",
+                    "decal_sheldon_a",
+                    "decal_combat_flamingo_a",
+                    "decal_combat_logo_a",
+                    "emote_default",
+                    "emote_blink_smiley_a",
+                    "emote_dizzy_eyes_a",
+                    "rwd_chassis_body_s11_a",
+                    "rwd_title_title_default",
+                    "rwd_banner_s1_default",
+                    "rwd_booster_default",
+                    "rwd_bracer_default",
+                    "rwd_decalborder_default",
+                    "rwd_decalback_default",
+                    "rwd_tag_default",
+                    "rwd_medal_default",
+                    "rwd_tag_s1_a_secondary",
+                    "rwd_emissive_0001",
+                    "rwd_emissive_0002",
+                    "emissive_default",
+                    "heraldry_default",
+                    "rwd_goal_fx_default",
+                    "pattern_dumbbells_a",
+                    "decal_combat_scratch_a",
+                    "rwd_emissive_0003",
+                    "decal_combat_flying_saucer_a",
+                    "emote_gg_a",
+                    "tint_neutral_b_default",
+                    "tint_blue_b_default",
+                    "tint_orange_b_default",
+                    "tint_orange_i_default",
+                    "tint_blue_i_default",
+                    "emote_pizza_dance",
+                    "decal_alien_head_a",
+                    "rwd_pattern_alien_a",
+                    "rwd_pip_0009",
+                    "rwd_pip_0005",
+                    "decal_skull_a",
+                    "decal_crown_a",
+                    "emote_flying_hearts_a",
+                    "emote_star_sparkles_a",
+                    "rwd_emissive_0004",
+                    "pattern_bananas_a",
+                    "pattern_treads_a",
+                    "decal_combat_nova_a",
+                    "emote_smirk_face_a",
+                    "decal_combat_comet_a",
+                    "decal_combat_meteor_a",
+                    "rwd_banner_s1_basic",
+                    "rwd_banner_s1_hourglass",
+                    "tint_neutral_c_default",
+                    "tint_blue_c_default",
+                    "tint_orange_c_default",
+                    "tint_orange_j_default",
+                    "tint_blue_j_default",
+                    "decal_cat_a",
+                    "pattern_cats_a",
+                    "rwd_booster_vintage_a",
+                    "rwd_pip_0001",
+                    "rwd_goal_fx_0010",
+                    "decal_profile_wolf_a",
+                    "emote_winky_tongue_a",
+                    "emote_stinky_poop_a",
+                    "emote_dollar_eyes_a",
+                    "rwd_emissive_0005",
+                    "pattern_digital_camo_a",
+                    "pattern_stars_a",
+                    "pattern_paws_a",
+                    "decal_combat_pulsar_a",
+                    "decal_combat_puppy_a",
+                    "decal_combat_rage_bear_a",
+                    "rwd_tag_s1_b_secondary",
+                    "rwd_tag_s1_f_secondary",
+                    "rwd_tag_s1_o_secondary",
+                    "rwd_title_title_c",
+                    "rwd_pip_0006",
+                    "tint_neutral_d_default",
+                    "tint_blue_d_default",
+                    "tint_orange_d_default",
+                    "tint_orange_f_default",
+                    "tint_blue_f_default",
+                    "decal_combat_pizza_a",
+                    "rwd_pattern_pizza_a",
+                    "rwd_chassis_s11_flame_a",
+                    "decal_saturn_a",
+                    "emote_broken_heart_a",
+                    "emote_kissy_lips_a",
+                    "rwd_emissive_0006",
+                    "pattern_chevron_a",
+                    "pattern_cubes_a",
+                    "pattern_streaks_a",
+                    "decal_combat_medic_a",
+                    "emote_lightbulb_a",
+                    "rwd_pip_0013",
+                    "tint_neutral_e_default",
+                    "tint_blue_e_default",
+                    "tint_orange_e_default",
+                    "tint_orange_h_default",
+                    "tint_blue_h_default",
+                    "decal_combat_skull_crossbones_a",
+                    "rwd_pattern_skull_a",
+                    "rwd_bracer_vintage_a",
+                    "rwd_goal_fx_0002",
+                    "decal_bear_paw_a",
+                    "decal_bomb_a",
+                    "emote_moustache_a",
+                    "emote_sleepy_zzz_a",
+                    "rwd_emissive_0007",
+                    "pattern_diamond_plate_a",
+                    "pattern_dots_a",
+                    "pattern_tablecloth_a",
+                    "decal_combat_octopus_a",
+                    "emote_sick_face_a",
+                    "rwd_tag_s1_c_secondary",
+                    "rwd_tag_s1_h_secondary",
+                    "rwd_tag_s1_v_secondary",
+                    "rwd_banner_s1_bold_stripe",
+                    "rwd_banner_s1_squish",
+                    "tint_neutral_f_default",
+                    "tint_orange_g_default",
+                    "tint_blue_g_default",
+                    "decal_cupcake_a",
+                    "rwd_pattern_cupcake_a",
+                    "rwd_pip_0011",
+                    "decal_bullseye_a",
+                    "decal_disc_a",
+                    "emote_question_mark_a",
+                    "emote_angry_face_a",
+                    "rwd_emissive_0008",
+                    "pattern_inset_cubes_a",
+                    "pattern_scales_a",
+                    "pattern_gears_a",
+                    "decal_combat_military_badge_a",
+                    "emote_dead_face_a",
+                    "rwd_title_title_d",
+                    "rwd_pip_0015",
+                    "tint_neutral_g_default",
+                    "tint_blue_k_default",
+                    "decal_combat_trex_skull_a",
+                    "rwd_pattern_trex_skull_a",
+                    "rwd_booster_s11_s1_a_fire",
+                    "rwd_goal_fx_0005",
+                    "decal_lightning_bolt_a",
+                    "emote_exclamation_point_a",
+                    "emote_loading_a",
+                    "rwd_emissive_0009",
+                    "pattern_squiggles_a",
+                    "pattern_swirl_a",
+                    "pattern_angles_a",
+                    "decal_combat_demon_a",
+                    "emote_heart_eyes_a",
+                    "rwd_tag_s1_d_secondary",
+                    "rwd_tag_s1_i_secondary",
+                    "rwd_tag_s1_m_secondary",
+                    "tint_neutral_h_default",
+                    "decal_rocket_a",
+                    "rwd_pattern_rocket_a",
+                    "rwd_chassis_s11_retro_a",
+                    "rwd_pip_0007",
+                    "rwd_emissive_0010",
+                    "decal_music_note_a",
+                    "decal_radioactive_a",
+                    "decal_radioactive_bio_a",
+                    "emote_skull_crossbones_a",
+                    "emote_eye_roll_a",
+                    "pattern_triangles_a",
+                    "pattern_weave_a",
+                    "decal_combat_pig_a",
+                    "emote_reticle_a",
+                    "rwd_banner_s1_chevrons",
+                    "rwd_banner_s1_tritip",
+                    "rwd_pip_0010",
+                    "tint_neutral_i_default",
+                    "tint_orange_k_default",
+                    "decal_hamburger_a",
+                    "rwd_pattern_hamburger_a",
+                    "rwd_booster_s11_s1_a_retro",
+                    "rwd_emissive_0011",
+                    "rwd_goal_fx_0011",
+                    "decal_crosshair_a",
+                    "decal_fireball_a",
+                    "decal_ray_gun_a",
+                    "emote_tear_drop_a",
+                    "emote_crying_face_a",
+                    "pattern_diamonds_a",
+                    "pattern_hawaiian_a",
+                    "pattern_leopard_a",
+                    "pattern_strings_a",
+                    "decal_combat_ice_cream_a",
+                    "emote_clock_a",
+                    "rwd_tag_s1_e_secondary",
+                    "rwd_tag_s1_j_secondary",
+                    "rwd_tag_s1_k_secondary",
+                    "rwd_title_title_e",
+                    "rwd_emissive_0012",
+                    "tint_neutral_j_default",
+                    "tint_neutral_n_default",
+                    "decal_rage_wolf_a",
+                    "rwd_pattern_rage_wolf_a",
+                    "rwd_pip_0014",
+                    "decal_rose_a",
+                    "decal_swords_a",
+                    "decal_spider_a",
+                    "emote_hourglass_a",
+                    "emote_wifi_symbol_a",
+                    "pattern_tiger_a",
+                    "pattern_pineapple_a",
+                    "pattern_honeycomb_triple_a",
+                    "pattern_arrowheads_a",
+                    "decal_combat_lion_a",
+                    "emote_money_bag_a",
+                    "tint_neutral_k_default",
+                    "tint_neutral_l_default",
+                    "decal_koi_fish_a",
+                    "decal_dinosaur_a",
+                    "decal_eagle_a",
+                    "decal_salt_shaker_a",
+                    "emote_star_eyes_a",
+                    "rwd_chassis_s8b_a",
+                    "rwd_pattern_salt_a",
+                    "rwd_pip_0008",
+                    "rwd_emissive_0013",
+                    "rwd_emissive_0014",
+                    "rwd_emissive_0025",
+                    "rwd_goal_fx_0008"
+                ]
+            },
+            {
+                "level": 2,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 3,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 5,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 6,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 7,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 8,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 9,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 10,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 11,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 12,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 13,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 14,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 15,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 16,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 17,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 18,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 19,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 20,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 21,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 22,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 23,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 24,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 25,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 26,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 27,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 28,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 29,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 30,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 31,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 32,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 33,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 35,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 36,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 37,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 38,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 39,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 40,
+                "unlocks": [
+                    
+
+                ]
+            },
+            {
+                "level": 41,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 42,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 43,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 44,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 45,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 46,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 47,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 48,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 50,
+                "unlocks": [
+                    
+                ]
+            }
+        ],
+        "arenalevels": [
+            {
+                "level": 1,
+                "unlocks": [
+                    "rwd_title_title_a",
+                    "rwd_medal_s1_arena_bronze",
+                    "rwd_medal_s1_arena_silver",
+                    "rwd_medal_s1_arena_gold",
+                ]
+            },
+            {
+                "level": 19,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 34,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 49,
+                "unlocks": [
+                    
+                ]
+            }
+        ],
+        "combatlevels": [
+            {
+                "level": 1,
+                "unlocks": [
+                    "rwd_chassis_body_s10_a",
+                    "rwd_booster_s10",
+                    "rwd_title_title_b",
+                    "rwd_medal_s1_combat_bronze",
+                    "rwd_medal_s1_combat_silver",
+                    "rwd_medal_s1_combat_gold"
+                ]
+            },
+            {
+                "level": 4,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 19,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 34,
+                "unlocks": [
+                    
+                ]
+            },
+            {
+                "level": 49,
+                "unlocks": [
+                    
+                ]
+            }
+        ],
+        "events": [
+            {
+                "hidden": true,
+                "starttime": "2018-09-27 17:30:00",
+                "endtime": "2018-11-01 17:30:00",
+                "unlocks": [
+                    "tint_neutral_spooky_a_default",
+                    "tint_neutral_spooky_b_default",
+                    "tint_neutral_spooky_c_default",
+                    "tint_neutral_spooky_d_default",
+                    "tint_neutral_spooky_e_default",
+                    "pattern_spooky_stitches_a",
+                    "pattern_spooky_cobweb_a",
+                    "pattern_spooky_bandages_a",
+                    "pattern_spooky_pumpkins_a",
+                    "pattern_spooky_bats_a",
+                    "pattern_spooky_skulls_a",
+                    "decal_halloween_bat_a",
+                    "decal_halloween_cat_a",
+                    "decal_fangs_a",
+                    "decal_halloween_ghost_a",
+                    "decal_halloween_pumpkin_a",
+                    "decal_halloween_skull_a",
+                    "decal_halloween_zombie_a",
+                    "decal_halloween_scythe_a",
+                    "emote_pumpkin_face_a",
+                    "emote_scared_a",
+                    "emote_rip_a",
+                    "emote_bats_a"
+                ]
+            },
+            {
+                "hidden": true,
+                "starttime": "2018-11-28 18:30:00",
+                "endtime": "2019-01-03 18:30:00",
+                "unlocks": [
+                    "tint_neutral_xmas_a_default",
+                    "tint_neutral_xmas_b_default",
+                    "tint_neutral_xmas_c_default",
+                    "tint_neutral_xmas_d_default",
+                    "tint_neutral_xmas_e_default",
+                    "pattern_xmas_lights_a",
+                    "pattern_xmas_snowflakes_a",
+                    "pattern_xmas_mistletoe_a",
+                    "pattern_xmas_flourish_a",
+                    "pattern_xmas_knit_a",
+                    "pattern_xmas_knit_flowers_a",
+                    "decal_present_a",
+                    "decal_bow_a",
+                    "decal_gingerbread_a",
+                    "decal_penguin_a",
+                    "decal_snowman_a",
+                    "decal_wreath_a",
+                    "decal_snowflake_a",
+                    "decal_reindeer_a",
+                    "emote_snowman_a",
+                    "emote_fire_a",
+                    "emote_present_a",
+                    "emote_gingerbread_man_a"
+                ]
+            },
+            {
+                "hidden": true,
+                "starttime": "2018-03-28 18:00:00",
+                "endtime": "2018-04-02 18:00:00",
+                "unlocks": [
+                    "tint_neutral_m_default",
+                    "decal_oculus_a",
+                    "emote_deal_glasses_a"
+                ]
+            },
+            {
+                "hidden": true,
+                "starttime": "2018-11-28 18:30:00",
+                "endtime": "2018-11-28 18:31:00",
+                "unlocks": [
+                    "tint_neutral_summer_a_default",
+                    "pattern_summer_hawaiian_a",
+                    "decal_summer_pirate_a",
+                    "decal_summer_shark_a",
+                    "decal_summer_whale_a",
+                    "decal_summer_submarine_a",
+                    "decal_halloween_cauldron_a",
+                    "decal_anniversary_cupcake_a",
+                    "decal_combat_anniversary_a",
+                    "decal_santa_cubesat_a",
+                    "decal_quest_launch_a",
+                    "decal_vrml_a",
+                    "emote_vrml_a",
+                    "emote_dancing_octopus_a",
+                    "emote_spider_a",
+                    "emote_combat_anniversary_a",
+                    "emote_snow_globe_a",
+                    "emote_ding",
+                    "rwd_medal_s1_vrml_preseason",
+                    "rwd_medal_s1_vrml_s1_user",
+                    "rwd_medal_s1_vrml_s1_finalist",
+                    "rwd_medal_s1_vrml_s1_champion",
+                    "rwd_medal_s1_vrml_s2",
+                    "rwd_medal_s1_vrml_s2_finalist",
+                    "rwd_medal_s1_vrml_s2_champion",
+                    "rwd_medal_s1_quest_launch",
+                    "rwd_tag_s1_vrml_s1",
+                    "rwd_tag_s1_vrml_s1_finalist",
+                    "rwd_tag_s1_vrml_s1_champion",
+                    "rwd_tag_s1_vrml_s2",
+                    "rwd_tag_s1_vrml_s2_finalist",
+                    "rwd_tag_s1_vrml_s2_champion",
+                    "rwd_tag_s1_vrml_preseason",
+                    "rwd_pattern_quest_a"
+                ]
+            },
+            {
+                "hidden": true,
+                "starttime": "2018-07-18 19:00:00",
+                "endtime": "2018-07-23 19:00:00",
+                "unlocks": [
+                    "decal_kronos_a",
+                    "decal_one_year_a",
+                    "emote_one_a"
+                ]
+            },
+            {
+                "hidden": true,
+                "starttime": "",
+                "endtime": "",
+                "unlocks": [
+                    "rwd_title_0010",
+                    "rwd_title_0011",
+                    "rwd_title_0012",
+                    "rwd_title_0013",
+                    "rwd_title_0014",
+                    "rwd_title_0015",
+                    "rwd_title_0016",
+                    "rwd_title_0017",
+                    "rwd_title_0018",
+                    "rwd_title_0019"
+                ]
+            }            
+        ]
+    }
+}

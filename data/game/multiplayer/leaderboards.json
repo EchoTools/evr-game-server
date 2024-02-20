@@ -1,0 +1,71 @@
+{
+    "refreshrate": 300.0, 
+    "leaderboards": [
+        {
+            "name": "wins",
+            "keystat": "ArenaWinPercentage", 
+            "descending": true, 
+            "count": 10, 
+            "stats": [ 
+                "Level",
+                "ArenaGamesPlayed",
+                "HighestArenaWinStreak",
+            ]
+        },
+        {
+            "name": "mvps",
+            "keystat": "ArenaMVPPercentage", 
+            "descending": true, 
+            "count": 10, 
+            "stats": [ 
+                "Level",
+                "ArenaGamesPlayed",
+                "HighestArenaMVPStreak",
+            ]
+        },
+        {
+            "name": "shotsongoal",
+            "keystat": "GoalScorePercentage", 
+            "descending": true, 
+            "count": 10, 
+            "stats": [ 
+                "Level",
+                "ArenaGamesPlayed",
+                "Goals",
+            ]
+        },
+        {
+            "name": "points",
+            "keystat": "AveragePointsPerGame", 
+            "descending": true, 
+            "count": 10, 
+            "stats": [ 
+                "Level",
+                "ArenaGamesPlayed",
+                "HighestPoints",
+            ]
+        },
+        {
+            "name": "goalie",
+            "keystat": "SavesPerGame", 
+            "descending": true, 
+            "count": 10, 
+            "stats": [ 
+                "Level",
+                "ArenaGamesPlayed",
+                "HighestSaves",
+            ]
+        },
+        {
+            "name": "enforcer",
+            "keystat": "StunsPerGame", 
+            "descending": true, 
+            "count": 10, 
+            "stats": [ 
+                "Level",
+                "ArenaGamesPlayed",
+                "HighestStuns",
+            ]
+        },
+    ]
+}

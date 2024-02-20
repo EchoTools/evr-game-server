@@ -1,0 +1,11 @@
+{
+  
+  "colors": {
+    "blue_begin"     : { "r" : 0,    "g" : 102, "b" : 255 },
+    "blue_end"       : { "r" : 27,   "g" : 74,  "b" : 255 },
+    "orange_begin"   : { "r" : 255,  "g" : 15,  "b" : 3   },
+    "orange_end"     : { "r" : 255,  "g" : 12,  "b" : 4   },
+    "neutral_begin"  : { "r" : 255,  "g" : 121, "b" : 221 },
+    "neutral_end"    : { "r" : 255,  "g" : 1,   "b" : 128 },
+  }
+}

@@ -1,0 +1,72 @@
+{
+    "equipslotconfigs": [
+        {
+            "equipslot": "decal"
+        },
+        {
+            "equipslot": "emote",
+            "component": "CanvasUI_emote",
+            "localcomponent": "CanvasUI_emote_pip"
+        },
+        {
+            "equipslot": "pattern"
+        },
+        {
+            "equipslot": "banner"
+        },
+        {
+            "equipslot": "booster"
+        },
+        {
+            "equipslot": "bracer"
+        },
+        {
+            "equipslot": "chassis"
+        },
+        {
+            "equipslot": "pip"
+        },
+        {
+            "equipslot": "goal_fx"
+        },
+        {
+            "equipslot": "secondemote",
+            "component": "CanvasUI_emote",
+            "localcomponent": "CanvasUI_sec_emote_pip"
+        },
+        {
+            "equipslot": "emissive",
+            "alignmentrequirement": -1
+        },
+        {
+            "equipslot": "medal"
+        },
+        {
+            "equipslot": "tag"
+        },
+        {
+            "equipslot": "title"
+        },
+        {
+            "equipslot": "tint"
+        },
+        {
+            "equipslot": "tint_alignment_a",
+            "alignmentrequirement": 0
+        },
+        {
+            "equipslot": "tint_alignment_b",
+            "alignmentrequirement": 1
+        },
+        {
+            "equipslot": "tint_body",
+            "alignmentrequirement": -1
+        },
+        {
+            "equipslot": "pattern_body"
+        },
+        {
+            "equipslot": "decal_body"
+        }
+    ]
+}

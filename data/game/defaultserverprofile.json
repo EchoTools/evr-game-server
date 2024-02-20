@@ -1,0 +1,83 @@
+{
+    "_version": 4,
+    "loadout": {
+        "instances": {
+            "unified": {
+                "slots": {
+                    "emote": "emote_blink_smiley_a",
+                    "decal": "decal_default",
+                    "tint": "tint_neutral_a_default",
+                    "tint_alignment_a": "tint_blue_a_default",
+                    "tint_alignment_b": "tint_orange_a_default",
+                    "pattern": "pattern_default",
+                    "pip": "rwd_decalback_default",
+                    "chassis": "rwd_chassis_body_s11_a",
+                    "bracer": "rwd_bracer_default",
+                    "booster": "rwd_booster_default",
+                    "title": "rwd_title_title_default",
+                    "tag": "rwd_tag_s1_a_secondary",
+                    "banner": "rwd_banner_s1_default",
+                    "medal": "rwd_medal_default",
+                    "goal_fx": "rwd_goal_fx_default",
+                    "secondemote": "emote_blink_smiley_a",
+                    "emissive": "emissive_default",
+                    "tint_body": "tint_neutral_a_default",
+                    "pattern_body": "pattern_default",
+                    "decal_body": "decal_default"
+                }
+            }
+        },
+        "number": 1
+    },
+    "stats": {
+        "arena": {
+            "Level": {
+                "cnt": 1,
+                "op": "add",
+                "val": 1
+            }
+        },
+        "combat": {
+            "Level": {
+                "cnt": 1,
+                "op": "add",
+                "val": 1
+            }
+        }
+    },
+    "unlocks": {
+        "arena": {
+            "decal_combat_flamingo_a": true,
+            "decal_combat_logo_a": true,
+            "decal_default": true,
+            "decal_sheldon_a": true,
+            "emote_blink_smiley_a": true,
+            "emote_default": true,
+            "emote_dizzy_eyes_a": true,
+            "loadout_number": true,
+            "pattern_default": true,
+            "pattern_lightning_a": true,
+            "rwd_banner_s1_default": true,
+            "rwd_booster_default": true,
+            "rwd_bracer_default": true,
+            "rwd_chassis_body_s11_a": true,
+            "rwd_decalback_default": true,
+            "rwd_decalborder_default": true,
+            "rwd_medal_default": true,
+            "rwd_tag_default": true,
+            "rwd_tag_s1_a_secondary": true,
+            "rwd_title_title_default": true,
+            "tint_blue_a_default": true,
+            "tint_neutral_a_default": true,
+            "tint_neutral_a_s10_default": true,
+            "tint_orange_a_default": true,
+            "rwd_goal_fx_default" : true,
+            "emissive_default" : true
+        },
+        "combat": {
+            "rwd_booster_s10": true,
+            "rwd_chassis_body_s10_a": true
+        }
+    },
+    "xplatformid": "default_battlepass"
+}

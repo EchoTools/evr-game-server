@@ -1,0 +1,200 @@
+{
+    "networked" : true,
+    "serialized" : false,
+    "pages" : [
+        {
+            "rows" : [
+                {
+                    "path": "MINUTES",
+                    "name" : "MINUTES",
+                    "value" : 10,
+                    "type" : "INT FORMAT",
+                    "format" : "%02d:00",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path": "SECONDS",
+                    "name" : "SECONDS",
+                    "value" : 0,
+                    "type" : "INT FORMAT",
+                    "format" : "00:%02d",
+                    "min" : 0,
+                    "max" : 59
+                },
+                {
+                    "path": "BLUE SCORE",
+                    "name" : "BLUE SCORE",
+                    "value" : "0",
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path": "ORANGE SCORE",
+                    "name" : "ORANGE SCORE",
+                    "value" : "0",
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 99
+                }
+            ]
+        },
+        {
+            "rows" : [
+                {
+                    "path": "DISC LOCATION",
+                    "name" : "DISC LOCATION",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["BLUE", "MID", "ORANGE"]
+                },
+                {
+                    "path": "GOAL STOPS TIME",
+                    "name" : "GOAL STOPS TIME",
+                    "value" : false,
+                    "type" : "FLAG"
+                },
+                {
+                    "path": "RESPAWN TIME",
+                    "name" : "RESPAWN TIME",
+                    "value" : 3,
+                    "type" : "INT FORMAT",
+                    "format" : "00:%02d",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path": "CATAPULT TIME",
+                    "name" : "CATAPULT TIME",
+                    "value" : 12,
+                    "type" : "INT FORMAT",
+                    "format" : "00:%02d",
+                    "min" : 0,
+                    "max" : 99
+                }
+            ]
+        },
+        {
+            "rows" : [
+                {
+                    "path": "ROUND COUNT",
+                    "name" : "ROUND COUNT",
+                    "value" : 3,
+                    "type" : "INT",
+                    "min" : 1,
+                    "max" : 99
+                },
+                {
+                    "path": "ROUNDS PLAYED",
+                    "name" : "ROUNDS PLAYED",
+                    "idx" : 1,
+                    "type" : "STRING ARRAY",
+                    "values" : ["ALL", "BEST OF"]
+                },
+                {
+                    "path": "ROUND WAIT TIME",
+                    "name" : "ROUND WAIT TIME",
+                    "value" : 59,
+                    "type" : "INT FORMAT",
+                    "format" : "00:%02d",
+                    "min" : 0,
+                    "max" : 59
+                },
+                {
+                    "path": "CARRY POINTS OVER",
+                    "name" : "CARRY POINTS OVER",
+                    "value" : false,
+                    "type" : "FLAG"
+                }
+            ]
+        },
+        {
+            "rows" : [
+                {
+                    "path": "BLUE ROUNDS WON",
+                    "name" : "BLUE ROUNDS WON",
+                    "value" : 0,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path" : "ORANGE ROUNDS WON",
+                    "name" : "ORANGE ROUNDS WON",
+                    "value" : 0,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path" : "OVERTIME",
+                    "name" : "OVERTIME",
+                    "idx" : 0,
+                    "type" : "STRING ARRAY",
+                    "values" : ["ROUND END", "MATCH END", "NONE" ]
+                },
+                {
+                    "path" : "STANDARD CHASSIS",
+                    "name" : "STANDARD CHASSIS",
+                    "value" : true,
+                    "type" : "FLAG"
+                }
+            ]
+        },
+        {
+            "rows" : [
+                {
+                    "path" : "MERCY ENABLED",
+                    "name" : "MERCY ENABLED",
+                    "value" : true,
+                    "type" : "FLAG"
+                },
+                {
+                    "path" : "MERCY SCORE DIFF",
+                    "name" : "MERCY SCORE DIFF",
+                    "value" : 20,
+                    "type" : "INT",
+                    "min" : 0,
+                    "max" : 99
+                },
+                {
+                    "path" : "TEAM ONLY VOICE",
+                    "name" : "TEAM ONLY VOICE",
+                    "value" : true,
+                    "type" : "FLAG"
+                },
+                {
+                    "path" : "DISC CURVE",
+                    "name" : "DISC CURVE",
+                    "value" : false,
+                    "type" : "FLAG"
+                }
+            ]
+        },
+        {
+            "rows" : [
+                {
+                    "path" : "SELF-GOALING",
+                    "name" : "SELF-GOALING",
+                    "value" : true,
+                    "type" : "FLAG"
+                },
+                {
+                    "path" : "GOALIE PING ADV",
+                    "name" : "GOALIE PING ADV",
+                    "value" : false,
+                    "type" : "FLAG"
+                },
+                {
+                    "path" : "AI DIFF",
+                    "name" : "AI DIFF",
+                    "idx" : 0,
+                    "type" : "STRING ARRAY",
+                    "values" : ["BEGINNER", "INTERMEDIATE", "ADVANCED", "EXPERT", "MASTER"],
+                    "game_type": "echo_arena_private_ai"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1231 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "maxlevel": 50,
+    "xpprogression": [
+       500,     
+       1000,    
+       1500,    
+       2000,    
+       2500,    
+       3000,    
+       3500,    
+       4000,    
+       4500,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       5000,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       7500,    
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       10000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+       15000,   
+    ],
+    "levelicons": [
+      "level_01",
+      "level_02",
+      "level_03",
+      "level_04",
+      "level_05",
+      "level_06",
+      "level_07",
+      "level_08",
+      "level_09",
+      "level_10",
+      "level_11",
+      "level_12",
+      "level_13",
+      "level_14",
+      "level_15",
+      "level_16",
+      "level_17",
+      "level_18",
+      "level_19",
+      "level_20",
+      "level_21",
+      "level_22",
+      "level_23",
+      "level_24",
+      "level_25",
+      "level_26",
+      "level_27",
+      "level_28",
+      "level_29",
+      "level_30",
+      "level_31",
+      "level_32",
+      "level_33",
+      "level_34",
+      "level_35",
+      "level_36",
+      "level_37",
+      "level_38",
+      "level_39",
+      "level_40",
+      "level_41",
+      "level_42",
+      "level_43",
+      "level_44",
+      "level_45",
+      "level_46",
+      "level_47",
+      "level_48",
+      "level_49",
+      "level_50",
+    ],
+
+    "gamerewards": [
+        {
+            "gamemode": "echo_demo_public",
+            "maxawardsdisplayed": 3, 
+            "xprewards": {
+                "matchcomplete": 1000,
+                "mvp": 100,
+                "win": 200,
+                "tiered": [
+                    {
+                        "name": "gold",
+                        "xp": 150,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "silver",
+                        "xp": 100,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "bronze",
+                        "xp": 50,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                ]
+            },
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_demo",
+            "maxawardsdisplayed": 3, 
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_arena",
+            "maxawardsdisplayed": 3, 
+            "xprewards": {
+                "matchcomplete": 1000,
+                "mvp": 100,
+                "win": 200,
+                "tiered": [
+                    {
+                        "name": "gold",
+                        "xp": 150,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "silver",
+                        "xp": 100,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "bronze",
+                        "xp": 50,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                ]
+            },
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_arena_private",
+            "maxawardsdisplayed": 3, 
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_arena_public_ai",
+            "maxawardsdisplayed": 3, 
+            "xprewards": {
+                "matchcomplete": 1000,
+                "mvp": 100,
+                "win": 200,
+                "tiered": [
+                    {
+                        "name": "gold",
+                        "xp": 150,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "silver",
+                        "xp": 100,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "bronze",
+                        "xp": 50,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                ]
+            },
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_arena_practice_ai",
+            "maxawardsdisplayed": 3, 
+            "xprewards": {
+                "matchcomplete": 1000,
+                "mvp": 100,
+                "win": 200,
+                "tiered": [
+                    {
+                        "name": "gold",
+                        "xp": 150,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "silver",
+                        "xp": 100,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "bronze",
+                        "xp": 50,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                ]
+            },
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_arena_private_ai",
+            "maxawardsdisplayed": 3, 
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_arena_first_match",
+            "maxawardsdisplayed": 3, 
+            "xprewards": {
+                "matchcomplete": 1000,
+                "mvp": 100,
+                "win": 200,
+                "tiered": [
+                    {
+                        "name": "gold",
+                        "xp": 150,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "silver",
+                        "xp": 100,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                    {
+                        "name": "bronze",
+                        "xp": 50,
+                        "stats": [
+                            "goals",
+                            "assists",
+                            "saves",
+                        ]
+                    },
+                ]
+            },
+            "awards": [
+                {
+                    "name": "bruiser",
+                    "stat": "stuns",
+                    "multiplier": 5
+                },
+                {
+                    "name": "long_shot",
+                    "stat": "threepointgoals",
+                    "multiplier": 50
+                },
+                {
+                    "name": "bouncer",
+                    "stat": "bouncegoals",
+                    "multiplier": 30
+                },
+                {
+                    "name": "thief",
+                    "stat": "steals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "team_player",
+                    "stat": "assists",
+                    "multiplier": 30
+                },
+                {
+                    "name": "guardian",
+                    "stat": "saves",
+                    "multiplier": 30
+                },
+                {
+                    "name": "jouster",
+                    "stat": "joustswon",
+                    "multiplier": 40
+                },
+                {
+                    "name": "unrelenting",
+                    "stat": "shotsongoal",
+                    "multiplier": 10
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "unstoppable",
+                    "stat": "goals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "greedy",
+                    "stat": "longestpossession",
+                    "multiplier": 4
+                },
+                {
+                    "name": "eagle_eye",
+                    "stat": "passes",
+                    "multiplier": 20
+                },
+                {
+                    "name": "quick_reflexes",
+                    "stat": "catches",
+                    "multiplier": 30
+                },
+                {
+                    "name": "long_arm",
+                    "stat": "clears",
+                    "multiplier": 20
+                },
+                {
+                    "name": "interceptor",
+                    "stat": "interceptions",
+                    "multiplier": 20
+                },
+                {
+                    "name": "dunker",
+                    "stat": "onepointgoals",
+                    "multiplier": 20
+                },
+                {
+                    "name": "hat_tricker",
+                    "stat": "hattricks",
+                    "multiplier": 100
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_combat",
+            "maxawardsdisplayed": 3, 
+            "xprewards": {
+                "matchcomplete": 1000,
+                "mvp": 100,
+                "win": 200,
+                "tiered": [
+                    {
+                        "name": "gold",
+                        "xp": 150,
+                        "stats": [
+                            "CombatEliminations",
+                            "CombatObjectiveEliminations",
+                            "CombatObjectiveTime",
+                        ]
+                    },
+                    {
+                        "name": "silver",
+                        "xp": 100,
+                        "stats": [
+                            "CombatEliminations",
+                            "CombatObjectiveEliminations",
+                            "CombatObjectiveTime",
+                        ]
+                    },
+                    {
+                        "name": "bronze",
+                        "xp": 50,
+                        "stats": [
+                            "CombatEliminations",
+                            "CombatObjectiveEliminations",
+                            "CombatObjectiveTime",
+                        ]
+                    },
+                ]
+            },
+            "awards": [
+                {
+                    "name": "super_star",
+                    "stat": "CombatEliminations",
+                    "multiplier": 30
+                },
+                {
+                    "name": "defender",
+                    "stat": "CombatObjectiveEliminations",
+                    "multiplier": 120
+                },
+                {
+                    "name": "guard",
+                    "stat": "CombatObjectiveTime",
+                    "multiplier": 10
+                },
+                {
+                    "name": "controller",
+                    "stat": "CombatObjectiveDamage",
+                    "multiplier": 0.5
+                },
+                {
+                    "name": "hot_shot",
+                    "stat": "CombatBestEliminationStreak",
+                    "multiplier": 120
+                },
+                {
+                    "name": "assassin",
+                    "stat": "CombatKills",
+                    "multiplier": 80
+                },
+                {
+                    "name": "specialist",
+                    "stat": "CombatAssists",
+                    "multiplier": 50
+                },
+                {
+                    "name": "cannoneer",
+                    "stat": "CombatDamage",
+                    "multiplier": 0.4
+                },
+                {
+                    "name": "sniper",
+                    "stat": "CombatHeadshotKills",
+                    "multiplier": 150
+                },
+                {
+                    "name": "tank",
+                    "stat": "CombatDamageAbsorbed",
+                    "multiplier": 1.5
+                },
+                {
+                    "name": "medic",
+                    "stat": "CombatHealing",
+                    "multiplier": 1.5
+                },
+                {
+                    "name": "shock_trooper",
+                    "stat": "CombatStuns",
+                    "multiplier": 150
+                },
+                {
+                    "name": "renegade",
+                    "stat": "CombatSoloKills",
+                    "multiplier": 200
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "infiltrator",
+                    "stat": "CombatHillCaptures",
+                    "multiplier": 150
+                },
+                {
+                    "name": "immovable_object",
+                    "stat": "CombatHillDefends",
+                    "multiplier": 150
+                },
+            ]
+        },
+        {
+            "gamemode": "echo_combat_private",
+            "maxawardsdisplayed": 3, 
+            "awards": [
+                {
+                    "name": "super_star",
+                    "stat": "CombatEliminations",
+                    "multiplier": 30
+                },
+                {
+                    "name": "defender",
+                    "stat": "CombatObjectiveEliminations",
+                    "multiplier": 120
+                },
+                {
+                    "name": "guard",
+                    "stat": "CombatObjectiveTime",
+                    "multiplier": 10
+                },
+                {
+                    "name": "controller",
+                    "stat": "CombatObjectiveDamage",
+                    "multiplier": 0.5
+                },
+                {
+                    "name": "hot_shot",
+                    "stat": "CombatBestEliminationStreak",
+                    "multiplier": 120
+                },
+                {
+                    "name": "assassin",
+                    "stat": "CombatKills",
+                    "multiplier": 80
+                },
+                {
+                    "name": "specialist",
+                    "stat": "CombatAssists",
+                    "multiplier": 50
+                },
+                {
+                    "name": "cannoneer",
+                    "stat": "CombatDamage",
+                    "multiplier": 0.4
+                },
+                {
+                    "name": "sniper",
+                    "stat": "CombatHeadshotKills",
+                    "multiplier": 150
+                },
+                {
+                    "name": "tank",
+                    "stat": "CombatDamageAbsorbed",
+                    "multiplier": 1.5
+                },
+                {
+                    "name": "medic",
+                    "stat": "CombatHealing",
+                    "multiplier": 1.5
+                },
+                {
+                    "name": "shock_trooper",
+                    "stat": "CombatStuns",
+                    "multiplier": 150
+                },
+                {
+                    "name": "renegade",
+                    "stat": "CombatSoloKills",
+                    "multiplier": 200
+                },
+                
+                
+                
+                
+                
+                {
+                    "name": "infiltrator",
+                    "stat": "CombatHillCaptures",
+                    "multiplier": 150
+                },
+                {
+                    "name": "immovable_object",
+                    "stat": "CombatHillDefends",
+                    "multiplier": 150
+                },
+            ]
+        },
+    ]
+}
